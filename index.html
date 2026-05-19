@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Sistem Monitoring Laporan AC</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 30px; background-color: #f7fafc; }
+        h2 { color: #2b6cb0; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; background: white; }
+        th, td { border: 1px solid #cbd5e0; padding: 12px; text-align: left; }
+        th { background-color: #edf2f7; color: #4a5568; }
+        tr:nth-child(even) { background-color: #f8fafc; }
+    </style>
+</head>
+<body>
+
+    <h2>Daftar Laporan Perbaikan AC (Real-time)</h2>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>Nama AC / Lokasi</th>
+                <th>Kerusakan</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody id="konten-tabel">
+            <tr>
+                <td colspan="4" style="text-align: center;">Sedang memuat data laporan...</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
